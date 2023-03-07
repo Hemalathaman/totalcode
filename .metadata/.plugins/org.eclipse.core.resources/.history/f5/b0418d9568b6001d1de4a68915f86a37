@@ -1,0 +1,46 @@
+package com.example.demo.service;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+import org.mockito.BDDMockito;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.example.demo.Repository.MedicineReviewRepository;
+import com.example.demo.entity.Reviews;
+@SpringBootTest
+class MedicineReviewServiceImplTest {
+
+	@Mock
+	MedicineReviewRepository reviewRepository;
+	@InjectMocks
+	MedicineReviewServiceImpl reviewService;
+	@Test
+	
+		void testGetAllReviews() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	@DisplayName("Test- to verify the insert operation\"")
+
+	void testInsertReview() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetReviewBetweenIds() throws Exception {
+		Reviews sampleInput = new Reviews((long) 1,"the product is okay",6.6);
+		Reviews expectedOutput = new Reviews((long) 2,"the product is okay",6.5);
+		BDDMockito.given(reviewService.insertReview(sampleInput)).willReturn(expectedOutput	);
+		}
+
+	@Test
+	void testGetReviewById() {
+		fail("Not yet implemented");
+	}
+
+}

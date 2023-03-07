@@ -1,0 +1,29 @@
+package com.example.demo.service;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class MedicineReviewServiceImplTest {
+
+	@Test
+	void testGetAllReviews() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testInsertReview() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetReviewBetweenIds() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetReviewById() {
+		fail("Not yet implemented");
+	}
+
+}

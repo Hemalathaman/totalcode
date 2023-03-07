@@ -1,0 +1,27 @@
+2023-03-07T09:34:09.998+05:30  WARN 25028 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=11h1m16s298ms458µs700ns).
+2023-03-07T09:50:35.196+05:30  INFO 25028 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 16 class path changes (0 additions, 16 deletions, 0 modifications)
+2023-03-07T09:50:35.304+05:30  INFO 25028 --- [Thread-41] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-07T09:50:35.404+05:30  INFO 25028 --- [Thread-41] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-07T09:50:35.440+05:30  INFO 25028 --- [Thread-41] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2023-03-07T09:50:35.472+05:30  INFO 25028 --- [Thread-41] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2023-03-07T09:51:42.465+05:30  INFO 18604 --- [main] cineShoppingSystemReviewApplicationTests : Starting OnlineMedicineShoppingSystemReviewApplicationTests using Java 17.0.4.1 with PID 18604 (started by mhemala2 in C:\Users\mhemala2\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\p\microservices\Project\OnlineMedicineShoppingSystem-Review)
+2023-03-07T09:51:42.472+05:30  INFO 18604 --- [main] cineShoppingSystemReviewApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-03-07T09:51:44.639+05:30  INFO 18604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-07T09:51:44.846+05:30  INFO 18604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 183 ms. Found 1 JPA repository interfaces.
+2023-03-07T09:51:46.247+05:30  INFO 18604 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-07T09:51:46.434+05:30  INFO 18604 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-07T09:51:46.913+05:30  WARN 18604 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-07T09:51:47.753+05:30  INFO 18604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-07T09:51:48.878+05:30  INFO 18604 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@722787b5
+2023-03-07T09:51:48.885+05:30  INFO 18604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-07T09:51:48.980+05:30  INFO 18604 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-03-07T09:51:50.886+05:30  INFO 18604 --- [main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.example.demo.entity.Reviews (class must be instantiated by Interceptor)
+2023-03-07T09:51:51.259+05:30  INFO 18604 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-07T09:51:51.276+05:30  INFO 18604 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-07T09:51:53.116+05:30  WARN 18604 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-07T09:51:54.382+05:30  INFO 18604 --- [main] cineShoppingSystemReviewApplicationTests : Started OnlineMedicineShoppingSystemReviewApplicationTests in 12.921 seconds (process running for 16.273)
+2023-03-07T09:51:55.011+05:30  INFO 18604 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demo.service.MedicineReviewServiceImplTest]: MedicineReviewServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-07T09:51:55.049+05:30  INFO 18604 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.demo.OnlineMedicineShoppingSystemReviewApplication for test class com.example.demo.service.MedicineReviewServiceImplTest
+2023-03-07T09:51:55.825+05:30  INFO 18604 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-07T09:51:55.833+05:30  INFO 18604 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-07T09:51:55.893+05:30  INFO 18604 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
